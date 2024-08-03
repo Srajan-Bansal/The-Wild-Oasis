@@ -3,7 +3,7 @@ import { getCabins } from '../_lib/data-service';
 import { unstable_noStore as noStore } from 'next/cache';
 
 async function CabinList() {
-	noStore();
+	// noStore();
 
 	const cabins = await getCabins();
 

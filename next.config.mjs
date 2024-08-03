@@ -10,6 +10,7 @@ const nextConfig = {
 			},
 		],
 	},
+	// output: 'dist',
 };
 
 export default nextConfig;
